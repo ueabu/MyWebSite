@@ -747,7 +747,8 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/background.jpg");
+		background-color: #000000;
+		/*background-image: url("images/overlay.png"), url("images/background.jpg");*/
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
