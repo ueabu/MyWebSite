@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+$main-font : "Source Sans Pro";
+
+/* 
+* Screen sizes
+*/
+
+// Phone screens
+$screen-sm:540px;
+// Tablets
+$screen-md:768px;
+// Laptops
+$screen-lg:960px;
+// Large desktops and tablets
+$screen-xl:1280px;
+
+/*
+* Colors
+*/
+$black: #333; // website text
+$ash:#f9f9f9; // background
+$gray:#8b939b; // subtitle
+$lightgray:#dde2e7; // underline

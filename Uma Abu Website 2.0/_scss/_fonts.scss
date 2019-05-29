@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../assets/fonts/icomoon.eot?kgxt2t');
+    src:  url('../assets/fonts/icomoon.eot?kgxt2t#iefix') format('embedded-opentype'),
+      url('../assets/fonts/icomoon.ttf?kgxt2t') format('truetype'),
+      url('../assets/fonts/icomoon.woff?kgxt2t') format('woff'),
+      url('../assets/fonts/icomoon.svg?kgxt2t#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-github2:before {
+    content: "\e900";
+  }
+  .icon-hackerrank:before {
+    content: "\e901";
+    color: #2ec866;
+  }
+  .icon-linkedin:before {
+    content: "\e902";
+    color: #0077b5;
+  }
+  .icon-stackoverflow:before {
+    content: "\e903";
+    color: #fe7a16;
+  }
+  .icon-twitter:before {
+    content: "\e905";
+    color: #1da1f2;
+  }
+  .icon-gmail:before {
+    content: "\e904";
+    color: #d14836;
+  }
+  

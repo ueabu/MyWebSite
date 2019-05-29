@@ -1,0 +1,47 @@
+- title: Mouve
+  description: A Social Media app created using flutter that allows users to create and discover events around them.
+  year: 2019
+  category: Mobile App Development
+  link: './projects/mouve'
+  preview: ./assets/img/mouve/mouve-logo.png
+  color: "#FFFFFF"
+
+- title: Magic Mirror
+  description:  A raspberry pi powered monitor behind a double-sided mirror.
+  year: 2018
+  category: Software/Hardware
+  link: './projects/magicmirror'
+  preview: ./assets/img/magicmirror/magic-mirror.png
+  color: "#FFFFFF"
+
+- title: ISU CCEE
+  description: Website created for the Department of Civil and Construction Engineering at Iowa State University
+  year: 2018
+  category: Web Development
+  link: './projects/isuccee'
+  preview: ./assets/img/ccee/cceewebsite.png
+  color: "#FFFFFF"
+
+- title: Parlor Games
+  description: Colaborated with teammates to developed a series of House hold games.
+  year: 2018
+  category: Android App Development 
+  link: './projects/parlorgames'
+  preview: ./assets/img/parlorgames/parlor-games.png
+  color: "#FFFFFF"
+
+- title: Holding Hands
+  description: A simple quick and effective app for automated emergency notice.
+  year: 2017
+  category: Android App Development 
+  link: './projects/holdinghands'
+  preview: ./assets/img/holdinghands/Holding-Hand.png
+  color: "#FFFFFF"
+
+- title: PEWI
+  description: A web-based educational game designed to assist people in multidimensional ...
+  year: 2017
+  category: Web App Development 
+  link: './projects/pewi'
+  preview: ./assets/img/pewi/pewi.png
+  color: "#000000"

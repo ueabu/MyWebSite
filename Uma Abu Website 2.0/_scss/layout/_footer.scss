@@ -1,0 +1,35 @@
+footer{
+  height:70px;
+  padding:90px 0 0;
+    
+  .left{
+    font-size:16px;
+    color:#bec2c9;
+  }
+  .links i{
+    font-size:25px;
+    padding:0 10px;
+  }
+  @media(max-width:$screen-sm){
+    .row-float{
+      text-align: center;
+    }
+    .links i{
+      font-size:22px!important;
+      // padding-left:0;
+      float: none;
+    }
+    span{
+      display: block;
+      margin-bottom: 10px; 
+      &.right{
+        float: none !important;
+      }
+      &.left{
+        float: none !important;
+        margin-bottom: 30px; 
+      }
+    }
+  }
+  
+}  

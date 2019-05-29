@@ -1,0 +1,42 @@
+header{
+    height: 76px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+    z-index: 100;
+
+    .name{
+        font-weight: 600;
+        font-size: 20px;
+        margin: 23px 0;
+    }
+    .nav{
+        list-style: none;
+        margin: 16px 0;
+        padding: 0;
+
+        li{
+            padding: 0;
+            display: inline-block;
+            a {
+                line-height: 1.5;
+                border-bottom: 2px solid transparent;
+                color: $gray;
+                font-weight: 500;
+                letter-spacing: 0.3px;
+                padding: 10px 0px 24px;
+                margin-left: 32px;
+                text-decoration: none;
+                display: inline-block;
+
+                &.active{
+                    border-bottom: 2px solid black;
+                    color: $black;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

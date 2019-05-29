@@ -1,0 +1,28 @@
+title: Uma Abu
+description: Software Engineering portfolio for Uma Abu
+baseurl: "/"
+url: "https://umaabu.com" # the base hostname & protocol for your site, e.g. http://example.com
+social:
+  name: Uma Abu
+  links:
+    - title: github
+      url: https://github.com/ueabu
+    - title: linkedin
+      url: https://www.linkedin.com/in/uma-abu-636136134
+    - title: stackoverflow
+      url: https://stackoverflow.com/users/10530378/uma
+    - title: twitter
+      url: https://twitter.com/uma_abu1
+    - title: email
+      url: mailto:umaabu04@gmail.com
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _scss/
+  style: compressed
+
+exclude:
+  - README.md

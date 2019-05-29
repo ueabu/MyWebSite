@@ -1,0 +1,129 @@
+
+html {
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: $main-font;
+    background: $ash;
+    text-rendering: optimizeLegibility;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+}
+section{
+    margin: 100px auto 0 auto !important;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 32px 0 16px 0;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+}
+
+h2{
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 32px;
+    &.sub{
+        margin-top: 0;
+        font-size: 20px;
+    }
+}
+h3{
+    margin: 0;
+}
+h1, h2, h3, h4, h5 {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+img{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}
+// custom bootstrap
+.main-container{
+    width: $screen-lg;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+    @media (max-width: $screen-lg) {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+.block{
+    display: block;
+}
+.center{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.text-center{
+    text-align: center;
+}
+// container for floating content
+.container{
+    overflow: hidden;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.sub{
+    color: $gray;
+    font-weight: 400;
+}
+.sub-2{
+    color: #268bd2;
+    margin: 0;
+    // font-weight: 400;
+}
+.btn{
+    color: white;
+    background: #268bd2;
+    border-left: 3px solid #227ab9;
+    border-bottom: 4px solid #227ab9;
+    border-radius: 6px;
+    padding: 9px;
+}
+.underline, .underline2{
+    background: $lightgray;
+    width: 50px;
+    height: 2px;
+    display: block;
+    margin: 32px 0 48px 0;
+}
+.underline2{
+    margin: 20px 0;
+}
+.underline-d{
+    background: $lightgray;
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.link{
+    &:hover{
+        text-decoration: underline;
+    }
+    color: #268bd2;
+}
+li{
+    max-width: 550px;
+}
