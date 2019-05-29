@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/holdinghands.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/isuccee.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/magicmirror.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/mouve.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/parlorgames.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/pewi.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/UMA_ABU_RESUME.pdf</loc>
+<lastmod>2019-02-20T21:50:49-06:00</lastmod>
+</url>
+</urlset>
