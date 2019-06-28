@@ -4,7 +4,7 @@
   category: Mobile App Development
   link: 'mouve'
   preview: ./assets/img/mouve/mouve-logo.png
-  color: "#FFFFFF"
+  color: "#000000"
 
 - title: Magic Mirror
   description:  A raspberry pi powered monitor behind a double-sided mirror.
