@@ -5,12 +5,44 @@
             <a href="/about">Uma Abu</a>
         </div>
 
-        <ul class="right nav">
-            <li> <a href="/" class="{% if page.title == 'projects' %}active{% endif %}">Projects</a></li>
-            <li><a href="/about" class="{% if page.title == 'about' %}active{% endif %}">About</a></li>
-            <li> <a href="/experience" class="{% if page.title == 'experience' %}active{% endif %}">Experience</a></li>
-            <li> <a href="/resume" class="{% if page.title == 'resume' %}active{% endif %}">Resume</a></li>
-            <li> <a href="mailto:umaabu04@gmail.com">Contact</a></li>
-        </ul>
+        <div class="seenTopBar" id="myTopnav">
+            <ul class="right nav">
+                <li> <a href="/" class="{% if page.title == 'projects' %}active{% endif %}">Projects</a></li>
+                <li><a href="/about" class="{% if page.title == 'about' %}active{% endif %}">About</a></li>
+                <li> <a href="/experience" class="{% if page.title == 'experience' %}active{% endif %}">Experience</a>
+                </li>
+                <li> <a href="/resume" class="{% if page.title == 'resume' %}active{% endif %}">Resume</a></li>
+                <li> <a href="mailto:umaabu04@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class=" right nav dropdown">
+            <a class="dropbtn" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+            <!-- <a class="collapsedBar" href="javascript:void(0);" onclick="myFunction()">&#9776;</a> -->
+
+            <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+            <div id="myDropdown" class="dropdown-content">
+                <a href="/" class="{% if page.title == 'projects' %}active{% endif %}">Projects</a>
+                <a href="/about" class="{% if page.title == 'about' %}active{% endif %}">About</a>
+                <a href="/experience" class="{% if page.title == 'experience' %}active{% endif %}">Experience</a>
+                <a href="/resume" class="{% if page.title == 'resume' %}active{% endif %}">Resume</a>
+                <a href="mailto:umaabu04@gmail.com">Contact</a></li>
+            </div>
+        </div>
+
+        <!-- <div class="right nav">
+            <a class="collapsedBar" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="/" class="{% if page.title == 'projects' %}active{% endif %}">Projects</a>
+                <a href="/about" class="{% if page.title == 'about' %}active{% endif %}">About</a>
+                <a href="/experience" class="{% if page.title == 'experience' %}active{% endif %}">Experience</a>
+                <a href="/resume" class="{% if page.title == 'resume' %}active{% endif %}">Resume</a>
+                <a href="mailto:umaabu04@gmail.com">Contact</a></li>
+
+            </div>
+        </div> -->
+
+
     </div>
 </header>
