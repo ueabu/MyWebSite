@@ -1,3 +1,11 @@
+- title: Home Security System
+  description: A way to use old smart phones as home security devices.
+  year: 2020
+  category: Web Development
+  link: 'ehss'
+  preview: 
+  color: "#000000"
+
 - title: Mouve
   description: A Social Media app created using flutter that allows users to create and discover events around them.
   year: 2019

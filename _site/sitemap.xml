@@ -4,6 +4,9 @@
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/ehss.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/experience.html</loc>
 </url>
 <url>
@@ -29,6 +32,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/resume.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/Poster-sdmay20-42.pdf</loc>
+<lastmod>2020-05-20T21:11:50-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/UMA_ABU_RESUME.pdf</loc>
