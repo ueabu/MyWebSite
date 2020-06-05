@@ -1,10 +1,18 @@
+- title: Wizmedia
+  description: A graphic design portfolio made for Wizmedia
+  year: 2020
+  category: Web Development
+  link: 'wizmedia'
+  preview: ./assets/img/wizmedia/Wizmedialogo.png
+  color: "#FFFFFF"
+
 - title: Home Security System
   description: A way to use old smart phones as home security devices.
   year: 2020
   category: Web Development
   link: 'ehss'
-  preview: 
-  color: "#000000"
+  preview: ./assets/img/seniordesign/Economic.png
+  color: "#FFFFFF"
 
 - title: Mouve
   description: A Social Media app created using flutter that allows users to create and discover events around them.
