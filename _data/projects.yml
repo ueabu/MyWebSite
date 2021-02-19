@@ -1,5 +1,13 @@
+- title: One Music
+  description: A website that transfers playlists from Spotify To Apple Music.
+  year: 2021
+  category: Web Development
+  link: 'spotifytoapplemusic'
+  preview: ./assets/img/spotifytoapple/SpotifyToAppleMusic.png
+  color: "#FFFFFF"
+
 - title: Wizmedia
-  description: A graphic design portfolio made for Wizmedia
+  description: A graphic design portfolio made for Wizmedia.
   year: 2020
   category: Web Development
   link: 'wizmedia'
